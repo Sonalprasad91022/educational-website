@@ -1,0 +1,197 @@
+body{
+    font-family: arial;
+   
+    padding:0;
+    margin: 0;
+    background-image: url(pexels-johannes-plenio-1103970.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .center{
+    text-align: center;
+  }
+  
+  #content{
+  margin: auto;
+  background-color: white;
+  padding: 3vh;
+  width: 34vw;
+  margin-top: 4vw;
+  }
+  #header{
+    background: darkslateblue;
+    color: #fff;
+    height: 130px;
+  }
+  h1{
+    line-height: 51px;
+    font-size: 38px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 17px;
+  }
+  
+  
+  label{
+    color: crimson;
+    /* font-size: 1.9vh; */
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  input[type="file"]{
+    /* font-size: 1.4vh; */
+    cursor: pointer;
+  }
+  .help-block{
+    color: dodgerblue;
+    /* font-size: 1.2vh; */
+    display: block;
+    margin: 10px 0 20px;
+  }
+  #upload_btn,
+  #delete_btn,.confirm_btn{
+    background: darkslateblue;
+    border: 0;
+    outline: 0;  
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+ 
+  #preview{
+    border: 1px solid darkslateblue;
+    padding: 10px;
+    display: none;
+    background-color: white;
+    position: absolute;
+    width: 20vw;
+    
+  }
+  
+  #preview img{
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  #preview h3{
+    background: mediumseagreen;
+    color: #fff;
+    margin: 0 0 20px;
+    padding: 10px;
+  }
+
+
+  /* ..................................table css.................................. */
+  /* Style for the entire section */
+.gallary_action {
+  margin-top: 20px;
+}
+
+/*  table */
+#tableId {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  margin-top: 20px;
+  padding-left: 18vw;
+}
+
+
+#tableId th {
+  padding: 10px;
+  background-color: #ffc107;
+  color: #212529;
+  padding-left: 17vw;
+  font-size: 2vw;
+}
+
+
+/* image in the table */
+#tableId img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  #tableId {
+    width: 100%;
+  }
+  #galleryTable img {
+    
+    margin-left: -1vh;
+  }
+  
+ 
+}
+
+
+/* Style for the table */
+#galleryTable {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 6vw;
+}
+
+/* table headers */
+#galleryTable th {
+  padding: 10px;
+  background-color: #ffc107;
+  color: #212529;
+}
+
+/*  alternating rows */
+#galleryTable tr:nth-child(even) {
+  background-color:#d3d3d3cf;
+}
+#galleryTable tr:nth-child(odd) {
+  background-color:#1eb2a6;
+}
+
+
+/* table cells */
+#galleryTable td {
+  padding: 1vw;
+  text-align: center;
+}
+
+/*image in the table */
+#galleryTable img {
+  max-width: 100%;
+  height: 10vw;
+  width: 10vw;
+  object-fit: cover; 
+  margin-left: -1vh;
+}
+
+
+/* "Remove" button */
+#galleryTable input[type="button"] {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 2px;
+  height: 4vw;
+  width: 10vw;
+  font-size: 1.2vw;
+  border-radius: 4vw;
+}
+
+#galleryTable input[type="button"]:hover {
+  background-color: #c82333;
+}
+
+
+  
+  
+  
