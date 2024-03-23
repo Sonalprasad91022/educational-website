@@ -1,1 +1,3 @@
 # educational-website
+
+In your project, you are offering users the ability to register by providing their details along with a photograph, which adds a personal touch to their profiles. Additionally, new users have the option to contact the administration by inserting their mobile number directly into the portal, streamlining the communication process. This feature provides a convenient way for users to reach out for assistance or inquiries. Moreover, users can engage in real-time communication with the management team, fostering a sense of transparency and responsiveness within the platform. Overall, these functionalities enhance the user experience by promoting seamless interaction and accessibility.
